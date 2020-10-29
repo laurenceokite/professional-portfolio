@@ -1,0 +1,184 @@
+/* header styles */
+.profile-pic {
+    height: 12rem;
+    border-radius: 50%;
+    box-shadow: 0px 3px 13px -5px rgb(0, 0, 0);
+}
+
+header {
+    background-color: #383b3d;
+}
+
+header h1 {
+    color: white;
+}
+
+header h4 {
+    color: grey;
+}
+
+.contact {
+    background-image: radial-gradient( circle 300px at -9.8% 4.7%,  rgba(146,255,192,1) 8.5%, rgba(0,38,97,1) 72.9% );
+    border: 0;
+    text-align: center;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    box-shadow: 3px 3px 7px -3px rgb(0, 0, 0);
+}
+
+.contact:hover {
+    background-image: radial-gradient( circle 300px at 9% 4.7%,  rgba(146,255,192,1) 8.5%, rgba(0,38,97,1) 72.9% );
+}
+
+.contact:active {
+    background-image: radial-gradient( circle 300px at 9% 4.7%,  rgba(146,255,192,1) 8.5%, rgba(0,38,97,1) 72.9% );
+    box-shadow: 0;
+    
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+  
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+  
+  
+  /* social icons */
+  
+.social-network a.icoGithub:hover {
+    background-color: #333;
+}
+
+.social-network a.icoInstagram:hover {
+    background-image: linear-gradient(45deg, #405de6, 
+    #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+  
+.social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+}
+  
+  
+.social-network a:hover i {
+    color: #fcfbf2;
+}
+  
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+  
+.social-circle li a {
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+  
+.social-circle li i {
+    line-height: 3rem;
+    text-align: center;
+}
+  
+.social-circle i {
+    color: black;
+}
+  
+.social-network a {
+    background-color: #F9F9F9;
+}
+/* header styles end */
+
+/* projects display */
+
+.project-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 2rem 0 1rem 0;
+}
+
+.project-image {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    object-fit: cover;
+}
+
+.project-box-title { 
+    display: none;
+    width: fit-content;
+    margin: 0 0 1rem 1rem;
+    padding: .5rem;
+    background-color: rgb(255, 255, 255, 0.4);
+    position: absolute;
+    top: 0rem;
+    left: -1rem;
+}
+
+.project-lower-title {
+    color: rgb(220, 220, 220);
+    text-shadow: 0px 1px 2px rgb(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.project-item {
+    box-shadow: 0px 3px 17px -5px rgb(0, 0, 0);
+}
+
+body {
+    background-color: black;
+}
+
+.bkg_spotlight {
+    background: radial-gradient(75% 35% at 50% 95%, rgba(80, 82, 98, 0.6) 20%, rgba(80, 82, 98, 0) 90%), linear-gradient(rgba(28, 35, 50, 0) 0%, #1c2332 80%);
+    z-index: -1;
+}
+
+.bkg_spotlight:before {
+    z-index: 1;
+    background: radial-gradient(50vw 60vw at 50% 70%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 60%), radial-gradient(35% 15% at 50% 85%, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.item-1 {
+    background-image: url(../images/ClubTopics.png);
+    background-size: cover;
+}
+
+.item-2 {
+    background-image: url(https://user-images.githubusercontent.com/64815650/87613461-00ada300-c6d3-11ea-92d9-47cded5c1550.png);
+    background-size: cover;
+}
+
+.item-3 {
+    background-image: url(https://picsum.photos/id/1015/400/200);
+    background-size: cover;
+}
+
+.item-4 {
+    background-image: url(https://picsum.photos/id/1018/400/200);
+    background-size: cover;
+}
+
+.item-5 {
+    background-image: url(https://picsum.photos/id/1021/400/200);
+    background-size: cover;
+}
+
+.item-6 {
+    background-image: url(https://picsum.photos/id/1014/400/200);
+    background-size: cover;
+}
